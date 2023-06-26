@@ -5,10 +5,10 @@
 # Hearlty thanks for linuxchoice
 # If you use any part from this code, giving me the credits. Read the Lincense!
 clear
-termux-setup-storage
-pkg install php -y
-pkg install wget -y
-clear
+#termux-setup-storage
+#pkg install php -y
+#pkg install wget -y
+#clear
 trap 'printf "\n";stop' 2
 
 banner() {
@@ -200,7 +200,7 @@ fi
 
 printf "\n"
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok - not working at the moment\e[0m\n"
 default_option_server="1"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m' option_server
 option_server="${option_server:-${default_option_server}}"
@@ -255,4 +255,3 @@ checkfound
 banner
 dependencies
 start1
-

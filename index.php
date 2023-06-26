@@ -1,5 +1,5 @@
 <?php
 include 'ip.php';
-header('Location: /index2.html');
+header('Location: https://recito.serveo.net/index2.html');
 exit
 ?>

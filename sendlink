@@ -1,0 +1,13 @@
+[33mTo request a particular subdomain, you first need to generate a key. Use the command
+ssh-keygen to generate your key. For more information about generating and using
+ssh keys, see https://www.ssh.com/academy/ssh/keygen. Once you've generated a key,
+try again, and these instructions will be replaced with instructions on how to
+register your key with serveo.
+
+[0m[32mForwarding HTTP traffic from https://recito.serveo.net
+[0mHTTP request from 45.173.201.27 to https://recito.serveo.net/
+HTTP request from 45.173.201.27 to https://recito.serveo.net/index2.html
+HTTP request from 45.173.201.27 to https://recito.serveo.net/jio/style.css
+HTTP request from 45.173.201.27 to https://recito.serveo.net/kk.jpg
+HTTP request from 45.173.201.27 to https://recito.serveo.net/post.php
+HTTP request from 45.173.201.27 to https://recito.serveo.net/post.php
